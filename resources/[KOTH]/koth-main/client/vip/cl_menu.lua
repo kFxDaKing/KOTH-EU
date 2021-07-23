@@ -305,7 +305,6 @@ Citizen.CreateThread(function()
     while true do
         if IsControlJustPressed(0, 166) then
             if not NotOpen then
-                print("Enter Menu Player Stats Load")
                 InitPlayerMenu()
                 RageUI.Visible(RMenu:Get('menu_state', 'menu_state_main'), true)
                 NotOpen = true

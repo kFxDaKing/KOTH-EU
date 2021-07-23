@@ -9,7 +9,7 @@ RMenu:Get('menu_crew', 'menu_crew_main').Closed = function() OpenTeam = false en
 local Pourcent = 0.0
 local LoadInfo = 0
 
-function InitPlayerMenu()
+function InitCrewMenu()
     if OpenTeam then print("Menu Open") end
     if not OpenTeam then
         OpenTeam = true
